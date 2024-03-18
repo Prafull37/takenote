@@ -64,7 +64,7 @@ export const App: React.FC = () => {
         ) : (
           <>
             <PublicRoute exact path="/" component={LandingPage} />
-            <PrivateRoute path="/app" component={TakeNoteApp} />
+            <PublicRoute path="/app" component={TakeNoteApp} />
           </>
         )}
 
